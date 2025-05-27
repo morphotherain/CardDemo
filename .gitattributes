@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+cocos2d/cocos2d/Debug.win32/libcocos2d.pch filter=lfs diff=lfs merge=lfs -text
+cocos2d/cocos/2d/Debug.win32/libcocos2d.pch filter=lfs diff=lfs merge=lfs -text
+proj.win32/Debug.win32/libcocos2d.pdb filter=lfs diff=lfs merge=lfs -text
