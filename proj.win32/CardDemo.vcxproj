@@ -70,9 +70,11 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Lab\CardDemo\CardDemo\Classes\external;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Lab\CardDemo\CardDemo\Classes\external;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -151,12 +153,34 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)\Resources\" /D /E /I /F /Y
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\configs\CardResConfig.cpp" />
+    <ClCompile Include="..\Classes\configs\LevelConfig.cpp" />
+    <ClCompile Include="..\Classes\configs\LevelConfigLoader.cpp" />
+    <ClCompile Include="..\Classes\controllers\GameController.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\managers\UndoManager.cpp" />
+    <ClCompile Include="..\Classes\models\CardModel.cpp" />
+    <ClCompile Include="..\Classes\models\GameModel.cpp" />
+    <ClCompile Include="..\Classes\utils\GameUtils.cpp" />
+    <ClCompile Include="..\Classes\views\CardView.cpp" />
+    <ClCompile Include="..\Classes\views\GameView.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\configs\CardResConfig.h" />
+    <ClInclude Include="..\Classes\configs\LevelConfig.h" />
+    <ClInclude Include="..\Classes\configs\LevelConfigLoader.h" />
+    <ClInclude Include="..\Classes\controllers\CardController.h" />
+    <ClInclude Include="..\Classes\controllers\GameController.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\managers\UndoManager.h" />
+    <ClInclude Include="..\Classes\models\CardModel.h" />
+    <ClInclude Include="..\Classes\models\GameModel.h" />
+    <ClInclude Include="..\Classes\models\UndoModel.h" />
+    <ClInclude Include="..\Classes\utils\GameUtils.h" />
+    <ClInclude Include="..\Classes\views\CardView.h" />
+    <ClInclude Include="..\Classes\views\GameView.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

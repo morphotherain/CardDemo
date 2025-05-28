@@ -35,6 +35,15 @@ set(CMAKE_MODULE_PATH ${COCOS2DX_ROOT_PATH}/cmake/Modules/)
 include(CocosBuildSet)
 add_subdirectory(${COCOS2DX_ROOT_PATH}/cocos ${ENGINE_BINARY_PATH}/cocos/core)
 
+# 添加第三方库目录
+set(EXTERNAL_LIBS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external)
+
+# 添加nlohmann json库
+set(JSON_INCLUDE_DIR ${EXTERNAL_LIBS_DIR}/json/single_include)
+if(NOT EXISTS ${JSON_INCLUDE_DIR}/nlohmann/json.hpp)
+    message(FATAL_ERROR "nlohmann json library not found at ${JSON_INCLUDE_DIR}")
+endif()
+
 # record sources, headers, resources...
 set(GAME_SOURCE)
 set(GAME_HEADER)
@@ -149,3 +158,4 @@ if(LINUX OR WINDOWS)
     set(APP_RES_DIR "$<TARGET_FILE_DIR:${APP_NAME}>/Resources")
     cocos_copy_target_res(${APP_NAME} COPY_TO ${APP_RES_DIR} FOLDERS ${GAME_RES_FOLDER})
 endif()
+

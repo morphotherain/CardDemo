@@ -24,6 +24,7 @@
 
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "controllers/GameController.h"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -42,89 +43,62 @@ using namespace CocosDenshion;
 
 USING_NS_CC;
 
-static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
-static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
-static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
-static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
+#include "AppDelegate.h"
+#include "controllers/GameController.h"  // 引入游戏控制器
+#include "cocos2d.h"
 
-AppDelegate::AppDelegate()
-{
+USING_NS_CC;
+
+// 设计分辨率和窗口大小
+static const cocos2d::Size DESIGN_RESOLUTION = cocos2d::Size(1080, 2080);
+
+AppDelegate::AppDelegate() {
 }
 
-AppDelegate::~AppDelegate() 
-{
-#if USE_AUDIO_ENGINE
-    AudioEngine::end();
-#elif USE_SIMPLE_AUDIO_ENGINE
-    SimpleAudioEngine::end();
-#endif
+AppDelegate::~AppDelegate() {
 }
 
-// if you want a different context, modify the value of glContextAttrs
-// it will affect all platforms
-void AppDelegate::initGLContextAttrs()
-{
-    // set OpenGL context attributes: red,green,blue,alpha,depth,stencil,multisamplesCount
-    GLContextAttrs glContextAttrs = {8, 8, 8, 8, 24, 8, 0};
-
+void AppDelegate::initGLContextAttrs() {
+    GLContextAttrs glContextAttrs = { 8, 8, 8, 8, 24, 8, 0 };
     GLView::setGLContextAttrs(glContextAttrs);
 }
 
-// if you want to use the package manager to install more packages,  
-// don't modify or remove this function
-static int register_all_packages()
-{
-    return 0; //flag for packages manager
-}
-
 bool AppDelegate::applicationDidFinishLaunching() {
-    // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
-    if(!glview) {
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
-        glview = GLViewImpl::createWithRect("CardDemo", cocos2d::Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
-#else
-        glview = GLViewImpl::create("CardDemo");
-#endif
+
+    // 如果没有 OpenGL 视图，创建新的窗口（指定 1080x2080 窗口大小）
+    if (!glview) {
+        glview = GLViewImpl::createWithRect(
+            "CardDemo",              // 窗口标题
+            cocos2d::Rect(0, 0, 1080, 2080),  // 窗口大小
+            0.5f                           // 高 DPI 缩放（可选，根据需求调整）
+        );
         director->setOpenGLView(glview);
     }
 
-    // turn on display FPS
-    director->setDisplayStats(true);
+    // 设置设计分辨率为 1080x2080
+    glview->setDesignResolutionSize(
+        DESIGN_RESOLUTION.width,
+        DESIGN_RESOLUTION.height,
+        ResolutionPolicy::FIXED_WIDTH  // 固定宽度适配，高度自动缩放
+    );
 
-    // set FPS. the default value is 1.0/60 if you don't call this
+    // 关闭默认的 FPS 显示（可选，如需显示请保留 director->setDisplayStats(true);）
+    director->setDisplayStats(false);
     director->setAnimationInterval(1.0f / 60);
 
-    // Set the design resolution
-    glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::NO_BORDER);
-    auto frameSize = glview->getFrameSize();
-    // if the frame's height is larger than the height of medium size.
-    if (frameSize.height > mediumResolutionSize.height)
-    {        
-        director->setContentScaleFactor(MIN(largeResolutionSize.height/designResolutionSize.height, largeResolutionSize.width/designResolutionSize.width));
-    }
-    // if the frame's height is larger than the height of small size.
-    else if (frameSize.height > smallResolutionSize.height)
-    {        
-        director->setContentScaleFactor(MIN(mediumResolutionSize.height/designResolutionSize.height, mediumResolutionSize.width/designResolutionSize.width));
-    }
-    // if the frame's height is smaller than the height of medium size.
-    else
-    {        
-        director->setContentScaleFactor(MIN(smallResolutionSize.height/designResolutionSize.height, smallResolutionSize.width/designResolutionSize.width));
-    }
+    // 注册全局工具或服务（如资源管理器、网络模块等）
+    // register_all_packages();  // 如果使用资源包管理器，取消注释
 
-    register_all_packages();
-
-    // create a scene. it's an autorelease object
-    auto scene = HelloWorld::createScene();
-
-    // run
-    director->runWithScene(scene);
+    // 创建并运行游戏控制器（替换默认的 HelloWorld 场景）
+    auto gameController = GameController::createInstance();
+    director->runWithScene(gameController);
 
     return true;
 }
+
+
 
 // This function will be called when the app is inactive. Note, when receiving a phone call it is invoked.
 void AppDelegate::applicationDidEnterBackground() {

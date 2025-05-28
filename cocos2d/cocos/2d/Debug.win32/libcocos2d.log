@@ -14,17 +14,15 @@
   CCControlStepper.cpp
   CCControlSwitch.cpp
   CCControlUtils.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
   CCInvocation.cpp
   CCScrollView.cpp
   CCTableView.cpp
   CCTableViewCell.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManager.cpp)
   CCParticle3DAffector.cpp
   CCParticle3DEmitter.cpp
   CCParticle3DRender.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   CCParticleSystem3D.cpp
   CCPUAffector.cpp
   CCPUAffectorManager.cpp
@@ -32,14 +30,16 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(4
   CCPUAlignAffector.cpp
   CCPUAlignAffectorTranslator.cpp
   CCPUBaseCollider.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\extensions\assets-manager\AssetsManagerEx.cpp)
   CCPUBaseColliderTranslator.cpp
   CCPUBaseForceAffector.cpp
   CCPUBaseForceAffectorTranslator.cpp
   CCPUBeamRender.cpp
   CCPUBehaviour.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1180,46): warning C4305: “+=”: 从“double”到“float”截断
   CCPUBehaviourManager.cpp
   CCPUBehaviourTranslator.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1180,46): warning C4305: “+=”: 从“double”到“float”截断
   CCPUBillboardChain.cpp
   CCPUBoxCollider.cpp
   CCPUBoxColliderTranslator.cpp
@@ -198,15 +198,15 @@ D:\Lab\CardDemo\CardDemo\cocos2d\extensions\assets-manager\AssetsManagerEx.cpp(1
   unzip.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\ioapi.h(25,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\ioapi_mem.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\ioapi_mem.cpp)
+  xxhash.c
 D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\ioapi.h(25,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\ioapi.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\ioapi.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
-  xxhash.c
   CCAABB.cpp
   CCAnimate3D.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804: “/”: 在操作中使用类型“bool”不安全
   CCAnimation3D.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\..\external\unzip\unzip.cpp)
   CCAttachNode.cpp
   CCBillBoard.cpp
   CCBundle3D.cpp
@@ -218,8 +218,8 @@ D:\Lab\CardDemo\CardDemo\cocos2d\external\xxhash\xxhash.c(312,5): warning C4804:
   CCMotionStreak3D.cpp
   CCOBB.cpp
   CCObjLoader.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\external\flatbuffers\idl_parser.cpp(790,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
   CCPlane.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\external\flatbuffers\idl_parser.cpp(790,9): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
   CCRay.cpp
   CCSkeleton3D.cpp
   CCSkybox.cpp
@@ -251,9 +251,9 @@ D:\Lab\CardDemo\CardDemo\cocos2d\external\flatbuffers\idl_parser.cpp(790,9): war
   CCData.cpp
   CCDataVisitor.cpp
   CCDirector.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   CCEvent.cpp
   CCEventAcceleration.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
   CCEventController.cpp
   CCEventCustom.cpp
   CCEventDispatcher.cpp
@@ -292,10 +292,10 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\base\CCDirector.cpp(1,1): warning C4819: 
   s3tc.cpp
   TGAlib.cpp
   ZipUtils.cpp
-  cocos2d.cpp
-  CCArray.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\base\ZipUtils.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\base\ZipUtils.cpp)
+  cocos2d.cpp
+  CCArray.cpp
   CCDeprecated.cpp
   CCDictionary.cpp
   CCNotificationCenter.cpp
@@ -348,10 +348,6 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(4
   CCComAudio.cpp
   CCComController.cpp
   CCComRender.cpp
-  CCDataReaderHelper.cpp
-  CCDatas.cpp
-  CCDecorativeDisplay.cpp
-  CCDisplayFactory.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -362,6 +358,10 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+  CCDataReaderHelper.cpp
+  CCDatas.cpp
+  CCDecorativeDisplay.cpp
+  CCDisplayFactory.cpp
   CCDisplayManager.cpp
   CCInputDelegate.cpp
   CCComExtensionData.cpp
@@ -395,6 +395,7 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
   ArmatureNodeReader.cpp
   ButtonReader.cpp
   CheckBoxReader.cpp
+  ComAudioReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -405,7 +406,6 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
-  ComAudioReader.cpp
   GameMapReader.cpp
   GameNode3DReader.cpp
   ImageViewReader.cpp
@@ -420,7 +420,6 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
-  Light3DReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -431,6 +430,7 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+  Light3DReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -446,87 +446,78 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
   LoadingBarReader.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
   NodeReaderDefine.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
   NodeReaderProtocol.cpp
   NodeReader.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
   PageViewReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
+          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+  ParticleReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -537,41 +528,40 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
-  ParticleReader.cpp
   ProjectNodeReader.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
   ScrollViewReader.cpp
   SingleNodeReader.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
   BoneNodeReader.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
   SkeletonNodeReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
@@ -583,6 +573,16 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -599,17 +599,17 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           with
           [
               T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -617,6 +617,7 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
   TabControlReader.cpp
   TextAtlasReader.cpp
+  TextBMFontReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -627,13 +628,31 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
-  TextBMFontReader.cpp
   TextFieldReader.cpp
   TextReader.cpp
   Node3DReader.cpp
   Sprite3DReader.cpp
   UserCameraReader.cpp
-  Particle3DReader.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -644,17 +663,18 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp)
+  Particle3DReader.cpp
   WidgetReader.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -679,22 +699,12 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -705,16 +715,6 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
-          with
-          [
-              T=float
-          ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
   CCAffineTransform.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
@@ -731,12 +731,12 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+  CCGeometry.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1593,63): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
-  CCGeometry.cpp
   CCVertex.cpp
   Mat4.cpp
   MathUtil.cpp
@@ -744,8 +744,6 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
   TransformUtils.cpp
   Vec2.cpp
   Vec3.cpp
-  Vec4.cpp
-  CCNavMesh.cpp
 D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_generated.h(1546,39): warning C4305: “参数”: 从“double”到“T”截断
           with
           [
@@ -756,6 +754,8 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
           [
               T=float
           ] (编译源文件 ..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+  Vec4.cpp
+  CCNavMesh.cpp
   CCNavMeshAgent.cpp
   CCNavMeshDebugDraw.cpp
   CCNavMeshObstacle.cpp
@@ -780,10 +780,10 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\editor-support\cocostudio\CSParseBinary_g
   CCPhysicsShape.cpp
   CCPhysicsWorld.cpp
   CCFileUtils.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\platform\CCFileUtils.cpp)
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\platform\CCFileUtils.cpp)
   CCGLView.cpp
   CCImage.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\external\unzip\unzip.h(47,1): warning C4005: “CC_DLL”: 宏重定义 (编译源文件 ..\platform\CCFileUtils.cpp)
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(40): message : 参见“CC_DLL”的前一个定义 (编译源文件 ..\platform\CCFileUtils.cpp)
   CCSAXParser.cpp
   CCThread.cpp
   CCGLViewImpl-desktop.cpp
@@ -802,15 +802,15 @@ D:\Lab\CardDemo\CardDemo\cocos2d\cocos\platform\win32\CCPlatformDefine-win32.h(4
   CCGLProgramStateCache.cpp
   ccGLStateCache.cpp
   CCGroupCommand.cpp
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(920,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(924,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(941,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
+D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(945,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
   CCMaterial.cpp
   CCMeshCommand.cpp
   CCPass.cpp
   CCPrimitive.cpp
   CCPrimitiveCommand.cpp
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(920,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(924,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(941,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
-D:\Lab\CardDemo\CardDemo\cocos2d\cocos\renderer\CCGLProgramState.cpp(945,14): warning C4996: 'cocos2d::UniformValue::setTexture': 被声明为已否决
   CCQuadCommand.cpp
   CCRenderCommand.cpp
   CCRenderer.cpp
@@ -1002,7 +1002,7 @@ libchipmunk.lib(cpHashSet.obj) : warning LNK4099: 未找到 PDB“chipmunk_stati
 libchipmunk.lib(cpPinJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPinJoint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libchipmunk.lib(cpPivotJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPivotJoint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libchipmunk.lib(cpPolyShape.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpPolyShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libchipmunk.lib(cpRatchetJoint.obj) : warning LNK4099: 未找到 PDB“”(使用“libchipmunk.lib(cpRatchetJoint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+libchipmunk.lib(cpRatchetJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRatchetJoint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libchipmunk.lib(cpRobust.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRobust.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libchipmunk.lib(cpRotaryLimitJoint.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpRotaryLimitJoint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libchipmunk.lib(cpShape.obj) : warning LNK4099: 未找到 PDB“chipmunk_static.pdb”(使用“libchipmunk.lib(cpShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\chipmunk_static.pdb”中寻找)；正在链接对象，如同没有调试信息一样
@@ -1021,7 +1021,7 @@ libbullet.lib(btDbvtBroadphase.obj) : warning LNK4099: 未找到 PDB“libbullet
 libbullet.lib(btDispatcher.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDispatcher.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btOverlappingPairCache.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btOverlappingPairCache.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btQuantizedBvh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btQuantizedBvh.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“”(使用“libbullet.lib(btActivatingCollisionAlgorithm.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btActivatingCollisionAlgorithm.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxBoxCollisionAlgorithm.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btBoxBoxDetector.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxBoxDetector.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btCollisionDispatcher.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionDispatcher.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
@@ -1045,7 +1045,7 @@ libbullet.lib(SphereTriangleDetector.obj) : warning LNK4099: 未找到 PDB“lib
 libbullet.lib(btBoxShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBoxShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btBvhTriangleMeshShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btCapsuleShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCapsuleShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btCollisionShape.obj) : warning LNK4099: 未找到 PDB“”(使用“libbullet.lib(btCollisionShape.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btCollisionShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCollisionShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btCompoundShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCompoundShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btConcaveShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConcaveShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btConvexHullShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexHullShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
@@ -1053,11 +1053,11 @@ libbullet.lib(btConvexInternalShape.obj) : warning LNK4099: 未找到 PDB“libb
 libbullet.lib(btConvexPolyhedron.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexPolyhedron.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btConvexShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btCylinderShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btCylinderShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btHeightfieldTerrainShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHeightfieldTerrainShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btHeightfieldTerrainShape.obj) : warning LNK4099: 未找到 PDB“”(使用“libbullet.lib(btHeightfieldTerrainShape.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btOptimizedBvh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btOptimizedBvh.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btPolyhedralConvexShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPolyhedralConvexShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btSphereShape.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSphereShape.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btStridingMeshInterface.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btStridingMeshInterface.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btStridingMeshInterface.obj) : warning LNK4099: 未找到 PDB“”(使用“libbullet.lib(btStridingMeshInterface.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btTriangleCallback.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleCallback.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btTriangleIndexVertexArray.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleIndexVertexArray.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btTriangleMesh.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTriangleMesh.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
@@ -1075,13 +1075,13 @@ libbullet.lib(btRaycastCallback.obj) : warning LNK4099: 未找到 PDB“libbulle
 libbullet.lib(btSubSimplexConvexCast.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSubSimplexConvexCast.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btVoronoiSimplexSolver.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btConeTwistConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConeTwistConstraint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btGeneric6DofConstraint.obj) : warning LNK4099: 未找到 PDB“”(使用“libbullet.lib(btGeneric6DofConstraint.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btGeneric6DofConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btGeneric6DofConstraint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btHingeConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btHingeConstraint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btPoint2PointConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btPoint2PointConstraint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSequentialImpulseConstraintSolver.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btSliderConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btSliderConstraint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btTypedConstraint.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btTypedConstraint.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-libbullet.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: 未找到 PDB“”(使用“libbullet.lib(btDiscreteDynamicsWorld.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+libbullet.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btDiscreteDynamicsWorld.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btRigidBody.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btRigidBody.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btAlignedAllocator.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btAlignedAllocator.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 libbullet.lib(btConvexHullComputer.obj) : warning LNK4099: 未找到 PDB“libbullet.pdb”(使用“libbullet.lib(btConvexHullComputer.obj)”或在“D:\Lab\CardDemo\CardDemo\proj.win32\Debug.win32\libbullet.pdb”中寻找)；正在链接对象，如同没有调试信息一样
