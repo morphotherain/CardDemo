@@ -3,6 +3,8 @@
 ## 功能演示
 以下是游戏功能演示视频：
 
+https://private-user-images.githubusercontent.com/127714119/448185151-5cf74402-fe1b-46c3-9e2d-fb5cf52d9e9d.mp4
+
 <div align="center">
   <video width="640" height="480" controls autoplay>
     <source src="media/demo.mp4" type="video/mp4">
